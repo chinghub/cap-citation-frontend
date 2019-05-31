@@ -1,0 +1,8 @@
+{
+  "short_name": "CAP Citation",
+  "name": "CAP Citation",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
