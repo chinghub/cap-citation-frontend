@@ -10,12 +10,12 @@ export const callDataService = async (endpoint, api, request_payload) => {
     const svc_req = await fetch(
       service_url + api,
       {
-        method: "GET",
+        method: "POST",
         "headers": {
           "Content-Type": "application/json",
           "Accept": "application/json"
         },
-        //body: request_body
+        body: request_body
       }
     );
     const resp = await svc_req.json();

@@ -26,8 +26,7 @@ const Picker = () => {
           <Form.Label>Court</Form.Label>
           <Form.Control as="select">
             <option>Supreme</option>
-            <option>Deluxe</option>
-            <option>Standard</option>
+            <option>Appeals</option>
           </Form.Control>
         </Form.Group>
 
